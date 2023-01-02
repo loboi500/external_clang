@@ -1,34 +1,3 @@
-set(LLVM_LINK_COMPONENTS
-  Option
-  Support
-  )
-
-set(link_libs
-  clangBasic
-  clangCodeGen
-  clangDriver
-  clangFrontend
-  clangRewriteFrontend
-  )
-
-if(CLANG_ENABLE_ARCMT)
-  list(APPEND link_libs
-    clangARCMigrate
-    )
-endif()
-
-if(CLANG_ENABLE_STATIC_ANALYZER)
-  list(APPEND link_libs
-    clangStaticAnalyzerFrontend
-    )
-endif()
-
-add_clang_library(clangFrontendTool
-  ExecuteCompilerInvocation.cpp
-
-  DEPENDS
-  ClangDriverOptions
-
-  LINK_LIBS
-  ${link_libs}
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:91a1b790c7d5d6d028d680116c5c31e8468c29247fc634849bfe2ab21024c014
+size 467

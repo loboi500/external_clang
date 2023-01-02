@@ -1,9 +1,3 @@
-clang_tablegen(AttrPCHRead.inc -gen-clang-attr-pch-read
-  -I ${CMAKE_CURRENT_SOURCE_DIR}/../../
-  SOURCE ../Basic/Attr.td
-  TARGET ClangAttrPCHRead)
-
-clang_tablegen(AttrPCHWrite.inc -gen-clang-attr-pch-write
-  -I ${CMAKE_CURRENT_SOURCE_DIR}/../../
-  SOURCE ../Basic/Attr.td
-  TARGET ClangAttrPCHWrite)
+version https://git-lfs.github.com/spec/v1
+oid sha256:42124a683ded4e47297e45d7f191e4ef9b244040d022a6f099912665a6c83d4f
+size 302

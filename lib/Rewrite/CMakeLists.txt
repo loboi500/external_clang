@@ -1,15 +1,3 @@
-set(LLVM_LINK_COMPONENTS
-  Support
-  )
-
-add_clang_library(clangRewrite
-  DeltaTree.cpp
-  HTMLRewrite.cpp
-  RewriteRope.cpp
-  Rewriter.cpp
-  TokenRewriter.cpp
-
-  LINK_LIBS
-  clangBasic
-  clangLex
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:dba4f13fb0c6bdcb26114d8dbeb5f0453166cd9ddfde0dd92b30ba056e3d7dd3
+size 199

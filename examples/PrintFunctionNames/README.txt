@@ -1,16 +1,3 @@
-This is a simple example demonstrating how to use clang's facility for
-providing AST consumers using a plugin.
-
-Build the plugin by running `make` in this directory.
-
-Once the plugin is built, you can run it using:
---
-Linux:
-$ clang -cc1 -load ../../Debug+Asserts/lib/libPrintFunctionNames.so -plugin print-fns some-input-file.c
-$ clang -cc1 -load ../../Debug+Asserts/lib/libPrintFunctionNames.so -plugin print-fns -plugin-arg-print-fns help -plugin-arg-print-fns --example-argument some-input-file.c
-$ clang -cc1 -load ../../Debug+Asserts/lib/libPrintFunctionNames.so -plugin print-fns -plugin-arg-print-fns -an-error some-input-file.c
-
-Mac:
-$ clang -cc1 -load ../../Debug+Asserts/lib/libPrintFunctionNames.dylib -plugin print-fns some-input-file.c
-$ clang -cc1 -load ../../Debug+Asserts/lib/libPrintFunctionNames.dylib -plugin print-fns -plugin-arg-print-fns help -plugin-arg-print-fns --example-argument some-input-file.c
-$ clang -cc1 -load ../../Debug+Asserts/lib/libPrintFunctionNames.dylib -plugin print-fns -plugin-arg-print-fns -an-error some-input-file.c
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c194102e673fb21e1a361d18bed479ab21244a817c3058c7a0f6f0d771ad883
+size 1064

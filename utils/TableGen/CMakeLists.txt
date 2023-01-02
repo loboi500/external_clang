@@ -1,13 +1,3 @@
-set(LLVM_LINK_COMPONENTS Support)
-
-add_tablegen(clang-tblgen CLANG
-  ClangASTNodesEmitter.cpp
-  ClangAttrEmitter.cpp
-  ClangCommentCommandInfoEmitter.cpp
-  ClangCommentHTMLNamedCharacterReferenceEmitter.cpp
-  ClangCommentHTMLTagsEmitter.cpp
-  ClangDiagnosticsEmitter.cpp
-  ClangSACheckersEmitter.cpp
-  NeonEmitter.cpp
-  TableGen.cpp
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a58241da7faa58a58931f96adc8b5617855ba13e5f518ca64f222cd476042b6
+size 337

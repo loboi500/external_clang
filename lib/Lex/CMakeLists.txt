@@ -1,31 +1,3 @@
-# TODO: Add -maltivec when ARCH is PowerPC.
-
-set(LLVM_LINK_COMPONENTS support)
-
-add_clang_library(clangLex
-  HeaderMap.cpp
-  HeaderSearch.cpp
-  Lexer.cpp
-  LiteralSupport.cpp
-  MacroArgs.cpp
-  MacroInfo.cpp
-  ModuleMap.cpp
-  PPCaching.cpp
-  PPCallbacks.cpp
-  PPConditionalDirectiveRecord.cpp
-  PPDirectives.cpp
-  PPExpressions.cpp
-  PPLexerChange.cpp
-  PPMacroExpansion.cpp
-  PTHLexer.cpp
-  Pragma.cpp
-  PreprocessingRecord.cpp
-  Preprocessor.cpp
-  PreprocessorLexer.cpp
-  ScratchBuffer.cpp
-  TokenConcatenation.cpp
-  TokenLexer.cpp
-
-  LINK_LIBS
-  clangBasic
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:752221dfefe83e7c5984fdacee3e6723b0f156372611bb1003e8a5617fd2cc5f
+size 563

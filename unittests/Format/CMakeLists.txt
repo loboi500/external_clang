@@ -1,22 +1,3 @@
-set(LLVM_LINK_COMPONENTS
-  Support
-  )
-
-add_clang_unittest(FormatTests
-  CleanupTest.cpp
-  FormatTest.cpp
-  FormatTestJava.cpp
-  FormatTestJS.cpp
-  FormatTestProto.cpp
-  FormatTestSelective.cpp
-  SortImportsTestJS.cpp
-  SortIncludesTest.cpp
-  )
-
-target_link_libraries(FormatTests
-  clangBasic
-  clangFormat
-  clangFrontend
-  clangRewrite
-  clangToolingCore
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:a72c9ee5200cef998f007fa8221ddf6bfd91e5ccce00e7667ce9903b36c6c656
+size 361

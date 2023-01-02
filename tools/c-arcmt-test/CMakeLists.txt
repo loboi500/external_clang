@@ -1,17 +1,3 @@
-add_clang_executable(c-arcmt-test
-  c-arcmt-test.c
-  )
-
-if (LLVM_BUILD_STATIC)
-  target_link_libraries(c-arcmt-test
-    libclang_static
-    )
-else()
-  target_link_libraries(c-arcmt-test
-    libclang
-    )
-endif()
-
-set_target_properties(c-arcmt-test
-  PROPERTIES
-  LINKER_LANGUAGE CXX)
+version https://git-lfs.github.com/spec/v1
+oid sha256:cef139d9a39e7c74b8fa572f9c404625b1a00f0f28b7f2006ad774e8ed3d1673
+size 285

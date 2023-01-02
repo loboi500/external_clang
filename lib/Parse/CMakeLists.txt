@@ -1,29 +1,3 @@
-set(LLVM_LINK_COMPONENTS
-  MC
-  MCParser
-  Support
-  )
-
-add_clang_library(clangParse
-  ParseAST.cpp
-  ParseCXXInlineMethods.cpp
-  ParseDecl.cpp
-  ParseDeclCXX.cpp
-  ParseExpr.cpp
-  ParseExprCXX.cpp
-  ParseInit.cpp
-  ParseObjc.cpp
-  ParseOpenMP.cpp
-  ParsePragma.cpp
-  ParseStmt.cpp
-  ParseStmtAsm.cpp
-  ParseTemplate.cpp
-  ParseTentative.cpp
-  Parser.cpp
-
-  LINK_LIBS
-  clangAST
-  clangBasic
-  clangLex
-  clangSema
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:d67b8ee141e0cebdce75d2fab232c519b710180c43132511e6ae9c2e5a3ef639
+size 419

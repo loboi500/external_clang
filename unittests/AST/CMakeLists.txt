@@ -1,28 +1,3 @@
-set(LLVM_LINK_COMPONENTS
-  Support
-  )
-
-add_clang_unittest(ASTTests
-  ASTContextParentMapTest.cpp
-  ASTImporterTest.cpp
-  ASTTypeTraitsTest.cpp
-  ASTVectorTest.cpp
-  CommentLexer.cpp
-  CommentParser.cpp
-  DeclPrinterTest.cpp
-  DeclTest.cpp
-  EvaluateAsRValueTest.cpp
-  ExternalASTSourceTest.cpp
-  NamedDeclPrinterTest.cpp
-  PostOrderASTVisitor.cpp
-  SourceLocationTest.cpp
-  StmtPrinterTest.cpp
-  )
-
-target_link_libraries(ASTTests
-  clangAST
-  clangASTMatchers
-  clangBasic
-  clangFrontend
-  clangTooling
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:b261b4e6823d872439ed9da3279eed580af3830cc48104eaa3aad5314e68ce5b
+size 509

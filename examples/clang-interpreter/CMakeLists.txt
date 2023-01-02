@@ -1,23 +1,3 @@
-set(LLVM_LINK_COMPONENTS
-  Core
-  ExecutionEngine
-  MC
-  MCJIT
-  Support
-  native
-  )
-
-add_clang_executable(clang-interpreter
-  main.cpp
-  )
-
-add_dependencies(clang-interpreter
-  clang-headers
-  )
-
-target_link_libraries(clang-interpreter
-  clangBasic
-  clangCodeGen
-  clangDriver
-  clangFrontend
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:2beba0f20bada1efb43ae589d58c27f6e620b15b532f8b2bc0b31764b347f92e
+size 300

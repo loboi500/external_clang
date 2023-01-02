@@ -1,7 +1,3 @@
-add_subdirectory(AST)
-add_subdirectory(Basic)
-add_subdirectory(Driver)
-add_subdirectory(Parse)
-add_subdirectory(Sema)
-add_subdirectory(Serialization)
-add_subdirectory(StaticAnalyzer/Checkers)
+version https://git-lfs.github.com/spec/v1
+oid sha256:c43b93d09a4334e34c62149957e282e93ac4322fdf4c071dea32867e3d8f9605
+size 192

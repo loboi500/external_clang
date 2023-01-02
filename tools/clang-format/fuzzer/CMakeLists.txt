@@ -1,11 +1,3 @@
-set(LLVM_LINK_COMPONENTS support)
-
-add_clang_executable(clang-format-fuzzer
-  EXCLUDE_FROM_ALL
-  ClangFormatFuzzer.cpp
-  )
-
-target_link_libraries(clang-format-fuzzer
-  ${CLANG_FORMAT_LIB_DEPS}
-  LLVMFuzzer
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:d3bb478e44db12fb091299c7375806bf4d2d7569aa4a84127da445d30b0781eb
+size 210

@@ -1,11 +1,3 @@
-set(LLVM_EXPORTED_SYMBOL_FILE ${CMAKE_CURRENT_SOURCE_DIR}/SampleAnalyzerPlugin.exports)
-add_llvm_loadable_module(SampleAnalyzerPlugin MainCallChecker.cpp PLUGIN_TOOL clang)
-
-if(LLVM_ENABLE_PLUGINS AND (WIN32 OR CYGWIN))
-  target_link_libraries(SampleAnalyzerPlugin PRIVATE
-    clangAnalysis
-    clangAST
-    clangStaticAnalyzerCore
-    LLVMSupport
-    )
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:4421de4ed939af73b31be5f34bfb4656fc0f6a239837d7e527c21697eeb55a67
+size 362

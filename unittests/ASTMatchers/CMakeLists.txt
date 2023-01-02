@@ -1,28 +1,3 @@
-set(LLVM_LINK_COMPONENTS
-  Support
-  )
-
-# By default MSVC has a 2^16 limit on the number of sections in an object file,
-# and this needs more than that.
-if (MSVC)
-  set_source_files_properties(InternalASTMatchersTest.cpp PROPERTIES COMPILE_FLAGS /bigobj)
-  set_source_files_properties(NodeMatchersTest.cpp PROPERTIES COMPILE_FLAGS /bigobj)
-  set_source_files_properties(NarrowingMatchersTest.cpp PROPERTIES COMPILE_FLAGS /bigobj)
-  set_source_files_properties(ASTTraversalMatchersTest.cpp PROPERTIES COMPILE_FLAGS /bigobj)
-endif()
-
-add_clang_unittest(ASTMatchersTests
-  ASTMatchersInternalTest.cpp
-  ASTMatchersNodeTest.cpp
-  ASTMatchersNarrowingTest.cpp
-  ASTMatchersTraversalTest.cpp)
-
-target_link_libraries(ASTMatchersTests
-  clangAST
-  clangASTMatchers
-  clangBasic
-  clangFrontend
-  clangTooling
-  )
-
-add_subdirectory(Dynamic)
+version https://git-lfs.github.com/spec/v1
+oid sha256:2241a8826c89e7f1681987b65dd047a1c41ed872dc840ba2328ba5f221b60f6b
+size 832

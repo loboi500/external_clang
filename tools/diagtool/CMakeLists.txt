@@ -1,23 +1,3 @@
-set(LLVM_LINK_COMPONENTS
-  Support
-  )
-
-add_clang_executable(diagtool
-  diagtool_main.cpp
-  DiagTool.cpp
-  DiagnosticNames.cpp
-  ListWarnings.cpp
-  ShowEnabledWarnings.cpp
-  TreeView.cpp
-)
-
-target_link_libraries(diagtool
-  clangBasic
-  clangFrontend
-  )
-
-if(UNIX)
-  set(CLANGXX_LINK_OR_COPY create_symlink)
-else()
-  set(CLANGXX_LINK_OR_COPY copy)
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e0b4c92a432d2a05e895e82d737f7a73dd6dbf8924a413080bbf887de13b9a9
+size 355

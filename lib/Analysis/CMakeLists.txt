@@ -1,35 +1,3 @@
-set(LLVM_LINK_COMPONENTS
-  Support
-  )
-
-add_clang_library(clangAnalysis
-  AnalysisDeclContext.cpp
-  BodyFarm.cpp
-  CFG.cpp
-  CFGReachabilityAnalysis.cpp
-  CFGStmtMap.cpp
-  CallGraph.cpp
-  CocoaConventions.cpp
-  Consumed.cpp
-  CodeInjector.cpp
-  Dominators.cpp
-  FormatString.cpp
-  LiveVariables.cpp
-  ObjCNoReturn.cpp
-  PostOrderCFGView.cpp
-  PrintfFormatString.cpp
-  ProgramPoint.cpp
-  PseudoConstantAnalysis.cpp
-  ReachableCode.cpp
-  ScanfFormatString.cpp
-  ThreadSafety.cpp
-  ThreadSafetyCommon.cpp
-  ThreadSafetyLogical.cpp
-  ThreadSafetyTIL.cpp
-  UninitializedValues.cpp
-
-  LINK_LIBS
-  clangAST
-  clangBasic
-  clangLex
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:2089eb9ac21eb2307688cc4018860f64c173fa6ddaa9b36aab3d85bbcaebfb4a
+size 628

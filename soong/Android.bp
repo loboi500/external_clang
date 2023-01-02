@@ -1,25 +1,3 @@
-package {
-    // See: http://go/android-license-faq
-    // A large-scale-change added 'default_applicable_licenses' to import
-    // all of the 'license_kinds' from "external_clang_license"
-    // to get the below license kinds:
-    //   SPDX-license-identifier-Apache-2.0
-    default_applicable_licenses: ["external_clang_license"],
-}
-
-bootstrap_go_package {
-    name: "soong-clang",
-    pkgPath: "android/soong/external/clang",
-    deps: [
-        "blueprint",
-        "blueprint-proptools",
-        "soong-android",
-        "soong-cc",
-        "soong-genrule",
-    ],
-    srcs: [
-        "clang.go",
-        "tblgen.go",
-    ],
-    pluginFor: ["soong_build"],
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:79d40734cf19de56b669b86248e577b182334a16ccf2ea6a496ce6a32df3c875
+size 665

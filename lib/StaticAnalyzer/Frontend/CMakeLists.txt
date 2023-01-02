@@ -1,22 +1,3 @@
-include_directories( ${CMAKE_CURRENT_BINARY_DIR}/../Checkers )
-
-set(LLVM_LINK_COMPONENTS
-  Support
-  )
-
-add_clang_library(clangStaticAnalyzerFrontend
-  AnalysisConsumer.cpp
-  CheckerRegistration.cpp
-  ModelConsumer.cpp
-  FrontendActions.cpp
-  ModelInjector.cpp
-
-  LINK_LIBS
-  clangAST
-  clangAnalysis
-  clangBasic
-  clangFrontend
-  clangLex
-  clangStaticAnalyzerCheckers
-  clangStaticAnalyzerCore
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd27422a95f5702243f49035cb94bdf1e1b0c747afafd1670567114e413acd8f
+size 401

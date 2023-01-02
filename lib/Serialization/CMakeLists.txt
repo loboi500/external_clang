@@ -1,30 +1,3 @@
-set(LLVM_LINK_COMPONENTS
-  BitReader
-  Support
-  )
-
-
-add_clang_library(clangSerialization
-  ASTCommon.cpp
-  ASTReader.cpp
-  ASTReaderDecl.cpp
-  ASTReaderStmt.cpp
-  ASTWriter.cpp
-  ASTWriterDecl.cpp
-  ASTWriterStmt.cpp
-  GeneratePCH.cpp
-  GlobalModuleIndex.cpp
-  Module.cpp
-  ModuleFileExtension.cpp
-  ModuleManager.cpp
-
-  ADDITIONAL_HEADERS
-  ASTCommon.h
-  ASTReaderInternals.h
-
-  LINK_LIBS
-  clangAST
-  clangBasic
-  clangLex
-  clangSema
-  )
+version https://git-lfs.github.com/spec/v1
+oid sha256:412be41b06862b28fba69dcb30bc0fe0917d11fea8545952ce0f2a1d3e74dd49
+size 442

@@ -1,14 +1,3 @@
-package {
-    // See: http://go/android-license-faq
-    // A large-scale-change added 'default_applicable_licenses' to import
-    // all of the 'license_kinds' from "external_clang_license"
-    // to get the below license kinds:
-    //   SPDX-license-identifier-NCSA
-    default_applicable_licenses: ["external_clang_license"],
-}
-
-cc_library_static {
-    name: "libclangAST",
-    defaults: ["clang-defaults"],
-    srcs: ["*.cpp"],
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:75516d69c293c6d5fca7d14be6fcb0ddbf092093e369931baa63c7fe8d397025
+size 433
